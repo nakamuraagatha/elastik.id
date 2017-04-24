@@ -108,6 +108,11 @@ h2 {
   font-size: 16px;
 }
 
+h3 {
+  color: #b571b5;
+  font-size: 18px;
+}
+
 .description {
   text-align: center;
 }
@@ -136,8 +141,13 @@ form {
   line-height: 15px;
   color: #7a7a7a;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
+
+.logo {
+  margin-top: 20px;
+}
+
 
 .bottom-nav {
   margin-top: 16px;
@@ -174,3 +184,14 @@ a:hover {
     list-style-type: none;
     list-style-position: outside;
 }
+
+.size-12 { font-size: 12px; }
+    .size-14 { font-size: 14px; }
+    .size-16 { font-size: 16px; }
+    .size-18 { font-size: 18px; }
+    .size-21 { font-size: 21px; }
+    .size-24 { font-size: 24px; }
+    .size-32 { font-size: 32px; }
+    .size-48 { font-size: 48px; }
+    .size-64 { font-size: 64px; }
+    .size-96 { font-size: 96px; }

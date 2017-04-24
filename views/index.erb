@@ -23,7 +23,9 @@
   <meta property="og:site_name" content=""/>
   <meta property="og:description" content=""/> -->
 
-  <link rel="stylesheet" href="/css/vendor/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="/css/vendor/bootstrap.min.css">-->
+  <link rel="stylesheet" href="/css/ionicons.min.css" />
+  <link rel="stylesheet" href="/css/uikit.css">
   <link rel="stylesheet" href="/css/main.css">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -48,36 +50,36 @@
   <div class="container">
   
     <div class="feature">
-      <h1>Elastik</h1>
+      <img src="/img/elheroku.svg" alt="..." class="logo" width="180" height="auto">
+      <h3>Web Design & Web Development</h3>
 
       <h2>Free, open-source, and live on Heroku in minutes</h2>
 
       <div class="description">
-
         <p>
           The current version has optional integration, and that's just the beginning. Our goal is an open-source platform
-          dedicated to landing pages, complete with themes, editor, dashboard, and A/B testing.
         </p>
-
-        <p>
-          Available now on <a href="https://github.com/quartzmo/email-landing-page" target="_blank">GitHub</a>. Join the
-          mailing list for news and updates.
-        </p>
-
+        <span class="size-32"><a href="#"><i class="ion-social-github-outline"></i></a> <a href="#"><i class="ion-social-twitter-outline"></i></a> <a href="#"><i class="ion-social-whatsapp-outline"></i></a></span>
         
-
         <div id="notices">
           <div id="success" style="display: none;">Success! Please check your inbox for a confirmation request.</div>
           <div id="error" style="display: none;">Sorry, MailChimp couldn't validate your email. Try again?</div>
         </div>
-        <form action="/signup" class="form-inline">
-          <input id="email" name="email"  type="text" class="input-xlarge" placeholder="Email me about the project">
-          <button type="submit" class="btn btn-success">Subscribe</button>
+        
+        <form action="/signup" class="custom-marg">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Email">
+              <span class="input-group-btn">
+                <button class="btn btn-success" type="button">Subscribe</button>
+              </span>
+          
+          </div><!-- /input-group -->
         </form>
+        
+        <div class="clear"></div>
+        
         <p class="signup-terms">
-          You will receive only relevant, occasional messages, and your email
-          will be stored only by MailChimp, ensuring prompt removal should you
-          choose to unsubscribe.
+          Anda menyetujui untuk berlangganan
         </p>
       </div>
     </div>
