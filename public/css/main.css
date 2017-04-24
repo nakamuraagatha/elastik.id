@@ -109,8 +109,8 @@ h2 {
 }
 
 h3 {
-  color: #b571b5;
-  font-size: 18px;
+  color: #b571b5 !important;
+  font-size: 18px !important;
 }
 
 .description {
