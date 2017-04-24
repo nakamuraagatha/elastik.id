@@ -1,6 +1,29 @@
-body, html {
-  background-color: #f4f4f4;
+@import url('https://fonts.googleapis.com/css?family=Teko:400,500,600,700');
+
+
+
+@font-face {
+	font-family: 'GothamPro-Bold';
+	src: url('../fonts/GothamPro-Bold.eot?') format('eot'), 
+	     url('../fonts/GothamPro-Bold.otf')  format('opentype'),
+	     url('../fonts/GothamPro-Bold.woff') format('woff'), 
+	     url('../fonts/GothamPro-Bold.ttf')  format('truetype'),
+	     url('../fonts/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
 }
+
+
+
+
+@font-face {
+	font-family: 'GothamPro';
+	src: url('../fonts/GothamPro.eot?') format('eot'), 
+	     url('../fonts/GothamPro.otf')  format('opentype'),
+	     url('../fonts/GothamPro.woff') format('woff'), 
+	     url('../fonts/GothamPro.ttf')  format('truetype'),
+	     url('../fonts/GothamPro.svg#GothamPro') format('svg');
+}
+
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -9,6 +32,10 @@ html,
 body {
     height: 100%;
     /* The html and body elements cannot have any padding or margin. */
+    background: #B993D6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /* Wrapper for page content to push down footer */
@@ -45,33 +72,33 @@ body {
 
 body {
   color: #52585D;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'GothamPro', sans-serif;
   text-align: center;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 /* Custom container */
 .container {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 500px;
 }
 
 .feature {
   background-color: white;
-  border-radius: 6px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  margin-top: 40px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin-top: 20%;
   padding: 20px 50px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
 
 
 h1 {
   color: #222;
-  font-family: "agb", Helvetica Neue, Helvetica, Arial, sans-serif;
-  text-shadow: #aaaaaa 1px 1px 1px;
-  font-weight: normal;
+  font-family: 'GothamPro-Bold', sans-serif;
+  font-weight: 600;
   font-size: 32px;
 }
 
@@ -82,7 +109,7 @@ h2 {
 }
 
 .description {
-  text-align: left;
+  text-align: center;
 }
 
 #notices {
@@ -108,7 +135,6 @@ form {
   font-size: 11px;
   line-height: 15px;
   color: #7a7a7a;
-  font-style: italic;
   max-width: 400px;
   margin: 0 auto;
 }
